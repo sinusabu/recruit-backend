@@ -1,0 +1,6 @@
+---
+steps:
+  - label: 'Build Card Application Service'
+    command: ./devops/build.sh
+    agents:
+      queue: hype-lab-dflt
